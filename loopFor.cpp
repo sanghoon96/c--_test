@@ -9,13 +9,14 @@ int main() {
 }
 
 int function(){
-    int first = 10;
+    int last = 10;
     for (int first = 10; first < 20; first = first + 1) {
         cout << "value of first : " << first << endl;
         if ( first > 16) {          // with break statement
+        last = first;
         break;
         }
     }
-    cout << "Final value first : " << first;    //Error
+    cout << "Final value first : " << last << endl;    //Error
     return 0;
 }
