@@ -21,11 +21,13 @@ int main()
     cin >> first;
     cout << "Input second : ";
     cin >> second;
-    cout << add(first, second) << endl;
-    cout << sub(first, second) << endl;
-    cout << mul(first, second) << endl;
-    cout << divi(first, second) << endl;
-    cout << mod(first, second) << endl;
+    cout << "--------------------------------" << endl;
+    cout << " + Addition Result : " << add(first, second) << endl;
+    cout << " + Subtraction Result : " << sub(first, second) << endl;
+    cout << " + Multiplication Result : " << mul(first, second) << endl;
+    cout << " + Division Result : " << divi(first, second) << endl;
+    cout << " + Modulo Result : " << mod(first, second) << endl;
+    cout << "--------------------------------" << endl;
     Press();
     return 0;
 }
