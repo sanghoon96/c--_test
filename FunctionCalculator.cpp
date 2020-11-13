@@ -1,0 +1,29 @@
+#include <iostream>
+// #include "under/FunctionCalculatorAdd.cpp"
+// #include "under/FunctionCalculatorSub.cpp"
+// #include "under/FunctionCalculatorMul.cpp"
+// #include "under/FunctionCalculatorDivi.cpp"
+// #include "under/FunctionCalculatorMod.cpp"
+
+#include "under/FunctionCalculatorOthers.hpp"
+using namespace std;
+
+int add(int first, int second);
+int sub(int first, int second);
+int mul(int first, int second);
+int divi(int first, int second);
+int mod(int first, int second);
+int main()
+{
+    int first, second;
+    cout << "Input first : ";
+    cin >> first;
+    cout << "Input second : ";
+    cin >> second;
+    cout << add(first, second) << endl;
+    cout << sub(first, second) << endl;
+    cout << mul(first, second) << endl;
+    cout << divi(first, second) << endl;
+    cout << mod(first, second) << endl;
+    return 0;
+}
