@@ -30,3 +30,10 @@ int mod(int first, int second)
 {
     return first % second;
 }
+
+int Press(){
+    cout << " If you want to exit calculation, Press N " << endl;
+    char ch;
+    cin >> ch;
+    cout << "End the Calculation!" << endl;
+}

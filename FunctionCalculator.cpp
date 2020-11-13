@@ -13,6 +13,7 @@ int sub(int first, int second);
 int mul(int first, int second);
 int divi(int first, int second);
 int mod(int first, int second);
+int Press();
 int main()
 {
     int first, second;
@@ -25,5 +26,6 @@ int main()
     cout << mul(first, second) << endl;
     cout << divi(first, second) << endl;
     cout << mod(first, second) << endl;
+    Press();
     return 0;
 }
