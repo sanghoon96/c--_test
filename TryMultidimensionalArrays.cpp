@@ -18,6 +18,7 @@ int main()
         for (int j = 0; j < column; j++)
         {
             map[i][j] = char_row;
+            
         }
     } // end for
 
