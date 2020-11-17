@@ -13,13 +13,15 @@ int main()
     for (int i = 0; i < row; i++)
         map[i] = new char[column];
     
-    
-    for (int i = 0; i < row; i++) // output each array element's value
+    // 처음 맵의 값을 정해준다.
+    for (int i = 0; i < row; i++){ // output each array element's value
         for (int j = 0; j < column; j++)
         {
             map[i][j] = char_row;
         }
-    
+    } // end for
+    map[0][0] = '@';
+    // display
     for (int i = 0; i < row; i++){ // output each array element's value
         for (int j = 0; j < column; j++)
         {
