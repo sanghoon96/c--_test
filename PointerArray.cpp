@@ -2,8 +2,8 @@
 #include <cstring>
 using namespace std;
 
-#define MAX 3
-
+#define MAX 3       // 아래 데이터 개수가 3이라서 3을 붙인거구 MAX의 값이 3이라는 의미
+                    // 이러한 식으로 기호상수로 정의하면 제일 처음에 명시해놓기 때문에 가독성이 좋아지며 수정하려 할때 제일 위 한줄만 수정하면 되어 수정이 쉬워진다
 int main()
 {
     int var[MAX] = {10, 100, 200}, *ptr_first = var;
