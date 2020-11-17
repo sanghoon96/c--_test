@@ -20,7 +20,24 @@ int main()
             map[i][j] = char_row;
         }
     } // end for
-    map[0][0] = '@';
+
+    map[1][1] = ' ';
+    map[1][3] = ' ';
+    map[2][1] = ' ';
+    map[2][3] = ' ';
+    map[3][1] = ' ';
+    map[3][3] = ' ';
+    map[4][1] = ' ';
+    map[4][3] = ' ';
+    map[5][1] = ' ';
+    map[5][3] = ' ';
+
+    map[1][2] = '!';
+    map[2][2] = '!';
+    map[3][2] = '!';
+    map[4][2] = '!';
+    map[5][2] = '!';
+
     // display
     for (int i = 0; i < row; i++){ // output each array element's value
         for (int j = 0; j < column; j++)
